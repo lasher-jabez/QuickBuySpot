@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Tech Product 1",
+        "description": "This is an amazing tech product you should try in 2024.",
+        "price": "$299",
+        "image": "images/tech-product1.jpg",
+        "link": "https://affiliate-link.com"
+    },
+    {
+        "name": "Fashion Product 1",
+        "description": "Top fashion trends of 2024 are here. Check this out!",
+        "price": "$99",
+        "image": "images/fashion-product1.jpg",
+        "link": "https://affiliate-link.com"
+    },
+    {
+        "name": "Home Product 1",
+        "description": "Bring home comfort with the best home products of the year.",
+        "price": "$59",
+        "image": "images/home-product1.jpg",
+        "link": "https://affiliate-link.com"
+    }
+]

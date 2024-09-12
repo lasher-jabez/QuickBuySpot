@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>ClickMarketHub</title>
+    <link rel="stylesheet" href="css/styles.css"> <!-- Link to CSS file -->
+</head>
+<body>
+
+    <header>
+        <h1>ClickMarketHub</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#tech">Tech</a></li>
+            <li><a href="#fashion">Fashion</a></li>
+            <li><a href="#homegoods">Home Goods</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Search Bar -->
+    <div class="search-container">
+        <input type="text" id="search-bar" placeholder="Search for products or articles...">
+        <button onclick="searchContent()">Search</button>
+    </div>
+
+    <div class="container">
+        <!-- Articles Section -->
+        <div class="articles">
+            <h2>Latest Articles</h2>
+            <div class="article">
+                <h3>Best Tech Gadgets of 2024</h3>
+                <p>Discover the top tech gadgets you need to check out this year.</p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="article">
+                <h3>Trending Fashion Styles in 2024</h3>
+                <p>Explore the most popular fashion trends of the year.</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+
+        <!-- Products Section -->
+        <div class="products">
+            <h2>Related Products</h2>
+            <div id="product-list">
+                <!-- Products will be inserted here by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Add New Product Form -->
+    <div class="add-product-form">
+        <h2>Add a New Product</h2>
+        <form id="product-form">
+            <input type="text" id="product-name" placeholder="Product Name" required>
+            <input type="text" id="product-description" placeholder="Product Description" required>
+            <input type="text" id="product-image" placeholder="Product Image URL" required>
+            <input type="text" id="product-link" placeholder="Affiliate Link" required>
+            <button type="submit">Add Product</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 ClickMarketHub | All Rights Reserved</p>
+    </footer>
+
+    <!-- Link to the JavaScript file -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>
